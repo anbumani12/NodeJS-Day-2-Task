@@ -1,5 +1,5 @@
 import express from 'express'
-import AppRoutes from './routes/Booking.js'
+import AppRoutes from './Routes/Booking.js'
 
 let PORT=8000
 let app=express()
