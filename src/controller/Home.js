@@ -1,20 +1,22 @@
 const homePage = async (req, res) => {
     try {
-        res.status(200).send(`
-        <div style="background-color: black; color: white; padding: 20px;border-radius:20px;margin:13em">
-            <h1 style="text-align: center;">Welcome To Hall Booking API 😊</h1>
-            <div style="display: flex; justify-content: center; align-items: center;padding:1em">
-                <p style="text-align: center; max-width: 600px;">More than just your place to stay – Booking.com offers all types of accommodation. From takeoff to landing and everything in between - book your whole trip with us. 24/7 Customer Service. Low Rates. Motels. Great Availability. Hotels....</p>
-            </div>
-        </div>
-        `);
+      res.status(200).send(`
+          <div style="padding:10px;"><h1 style = "text-align:center">Hall Booking API</h1>
+          <ul><li><h3>https://hall-booking-mcgh.onrender.com/hall-booking/get-all-room - To GET All Room Details.</h3></li>
+          <li><h3>https://hall-booking-mcgh.onrender.com/hall-booking/create-room - To POST the Room Details in the API.</h3></li>
+          <li><h3>https://hall-booking-mcgh.onrender.com/hall-booking/booking-room - To POST the booked Room Details in the API.</h3></li>
+          <li><h3>https://hall-booking-mcgh.onrender.com/hall-booking/booked-data - To GET all rooms with Booked Details.</h3></li>
+          <li><h3>https://hall-booking-mcgh.onrender.com/hall-booking/customer-data - To GET all Customer with Booked Details</h3></li>
+          <li><h3>https://hall-booking-mcgh.onrender.com/hall-booking/bookedCount/:customer_name - To GET Customer Details with number of times the room booked.</h3></li>
+          </ul></div>
+          `);
     } catch (error) {
-        res.status(500).send({
-            comment: "Internal Server Error"
-        });
+      res.status(500).send({
+        comment: "Internal Server Error",
+      });
     }
-}
-
-export default {
-    homePage
-}
+  };
+  
+  export default {
+    homePage,
+  };
