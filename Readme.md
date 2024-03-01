@@ -12,4 +12,3 @@ Created a Hall Booking API with Node and Express.
 
 6.https://hall-booking-mcgh.onrender.com/hall-booking/bookedCount/:customer_name - To GET Customer Details with number of times the room booked.
 
-Postman Link - https://www.postman.com/dineshgowthamk/workspace/public/collection/32502533-d2fa6146-15c7-47c4-a0e6-31223730bba6?action=share&creator=32502533
