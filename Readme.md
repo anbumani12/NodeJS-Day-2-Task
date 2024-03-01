@@ -1,5 +1,9 @@
-Features IN API: Create rooms with details like room name, seats, amenities, and price per hour. Book rooms for specific dates and times, providing customer name, date, start time, end time, and room ID. View a list of all available rooms and their booking status. View a list of all customer bookings and booking history. API Endpoints Create a new room - /hall-booking/create-room (POST), Get a list of all available rooms- /hall-booking/get-all-room (GET), Book a room - /hall-booking/booking-room (POST), Get a list of all booked rooms - /hall-booking/booked-data (GET), Get a list of all customer bookings - /hall-booking/customer-data (GET), Get booking history for a specific customer - /hall-booking/bookedCount/:customer_name (GET)
+Created a Hall Booking API with Node and Express.
 
-
-Postman Link:
-https://api.postman.com/collections/32502504-752650d9-b7c6-4ac5-91a1-6a0654b6fd91?access_key=PMAT-01HN50CQZHMQBYWQAK5D3RA05J
+https://hall-booking-mcgh.onrender.com/hall-booking/get-all-room - To GET All Room Details.
+https://hall-booking-mcgh.onrender.com/hall-booking/create-room - To POST the Room Details in the API.
+https://hall-booking-mcgh.onrender.com/hall-booking/booking-room - To POST the booked Room Details in the API.
+https://hall-booking-mcgh.onrender.com/hall-booking/booked-data - To GET all rooms with Booked Details.
+https://hall-booking-mcgh.onrender.com/hall-booking/customer-data - To GET all Customer with Booked Details
+https://hall-booking-mcgh.onrender.com/hall-booking/bookedCount/:customer_name - To GET Customer Details with number of times the room booked.
+Postman Link - https://www.postman.com/dineshgowthamk/workspace/public/collection/32502533-d2fa6146-15c7-47c4-a0e6-31223730bba6?action=share&creator=32502533
